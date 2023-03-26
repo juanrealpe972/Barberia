@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -104,4 +104,18 @@ body {
 }
 .btn-1:hover {
     background-color: #cf203a;
+}
+.header-dir {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px ;
+}
+.dir h3 {
+    font-size: 18px;
+}
+.dir p {
+    font-size:22px ;
+    color: #ffffff;
+    text-transform:uppercase ;
 }
