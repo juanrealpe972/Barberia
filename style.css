@@ -314,15 +314,15 @@ textarea{
 }
 @media(max-width:991px) {
     .menu{
-        padding: 20px;
+        padding: 10px;
     }
     .menu label {
         display: initial;
     }
     .menu .navbar {
         position: absolute;
-        top: 100%;
-        left: 0;
+        top: 65%;
+        left: 300px;
         right: 0;
         background-color: #1f1f1f;
         display: none;
@@ -334,7 +334,7 @@ textarea{
         display: initial;
     }
     .header{
-        min-height: 0vh;
+        height: auto;
     }
     .header-content{
         padding: 80px 30px 50px 30px;
@@ -357,6 +357,7 @@ textarea{
     }
     .welcome{
         flex-direction: column;
+        height: auto;
     }
     .welcome-1{
         display: none;
@@ -375,6 +376,7 @@ textarea{
     }
     .services {
         padding: 30px;
+        height: auto;
     }
     .services-txt p{
         padding: 0;
@@ -387,6 +389,7 @@ textarea{
         margin: 0 0 20px 0;
     }
     .prices{
+        height: auto;
         flex-direction: column;
     }
     .prices-1{
@@ -402,6 +405,7 @@ textarea{
     }
     .personal{
         padding: 30px;
+        height: auto;
     }
     .personal-group{
         flex-direction: column;
@@ -411,9 +415,10 @@ textarea{
         margin-bottom: 25px;
     }
     .footer-bg{
+        height: auto;
         padding: 30px;
     }
     textarea{
-        width: 250px !important;
+        width: 300px !important;
     }
 }
