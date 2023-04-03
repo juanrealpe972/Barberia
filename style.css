@@ -13,15 +13,17 @@ body {
     background-color: #1f1f1f;
 }
 .container {
-    max-width: 900px;
+    max-width: 1p00px;
     margin: 0 auto;
 }
 .header {
-    background-image: url(./img/images8.jfif);
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/bg.jpg);
     background-position:center top;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 70vh;
+    min-height: 0vh;
     display: flex;
     align-items: center;
 }
@@ -69,7 +71,7 @@ body {
     margin-bottom: 45px;
 }
 .header-txt h1, span, h3 {
-    font-size: 110px;
+    font-size: 100px;
     letter-spacing: 5px; 
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
@@ -86,18 +88,18 @@ body {
 }
 .btn-1 {
     display: inline-block;
-    padding: 11px 25px;
+    padding: 10px 25px;
     background-color: #cf203a;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 20px;
+    margin: 20px;
     font-family: 'Bebas Neue', cursive;
-    margin: 25px 0;
-    border: 0 ;
+    border-radius: 15px;
 }
 .btn-1:hover {
-    background-color: #2f0a0f;
+    background-color: #b4272e;
 }
 .header-dir {
     display: flex;
@@ -113,36 +115,51 @@ body {
     color: #ffffff;
     text-transform:uppercase ;
 }
-.welcomw{
-    background-image: url(./img/images9.jfif);
+.welcome {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.welcome-1 {
+    background-image: url(./img/a1.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vh;
     width: 50%;
 }
-.welcome-2{
-    width: 50%;
-    padding: 150px  250px 150px 100px;
+.welcome-2 {
+    padding: 70px;
     background-color: #191919;
+    width: 50%;
+}
+h4{
+    font-size: 60px;
+    color:#ffffff;
+    text-transform: uppercase;
+    font-family: "Bebas Newe";
+    margin-bottom: 5px;
 }
 h2{
-    font-size: 90px;
-    line-height: 100px;
+    font-size: 60px;
+    line-height: 10px;
     color:#ffffff;
     text-transform: uppercase;
     font-family: "Bebas Newe";
     margin-bottom: 20px;
+    padding: 15px;
 }
 p{
-    font-size: 16px;
+    font-size: 15px;
     color: #afafaf;
-    margin: 25px 0;
+    margin: 5px ;
 }
 .b1{
     color: #cf203a;
 }
 .services {
-    padding: 100px 0;
+    width: 100%;
+    height: 100vh;
+    padding: 60px;
     text-align: center;
 }
 .services-txt{
@@ -157,20 +174,23 @@ hr {
 .services-txt p{
     padding: 50px 150px;
 }
-.service-gsroup{
+.services-group{
     display: flex;
-    justify-content: space-between;
-    margin: 45px 0;
+    justify-content:space-between;
 }
 .services-1{
     background-color: #070707;
-    padding: 35px 25px;
-    margin: 0 10px;
+    padding: 15px 15px;
+    margin: 0 20px;
     border-radius: 15px;
 }
--services-1 h3{
+.services img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+.services-1 h3{
     font-size: 25px;
-    color: #cf203a;
+    color: #ffffff;
 }
 .services-1 a{
     color: #cf203a;
@@ -178,61 +198,59 @@ hr {
 }
 .prices {
     display: flex;
+    width: 100%;
+    height: 100vh;
 }
-.prices-1{
-    width: 50px;
-    padding: 0%150px 250px 150px 100px;
+.prices-1 {
+    width: 50%;
+    padding: 100px 70px;
     background-color: #191919;
 }
 table{
     margin: 50px 0;
-    width: 100%;
-    text-align: left;
-    border-collapse: collapse;
+    width: 50%;
 }
 tr{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #afafaf;
-    margin-bottom: 20px;
+    border-bottom: 0.5px solid #afafaf;
+    margin-bottom: 25px;
 }
-th{
+th, td {
     color: #ffffff;
-    padding-bottom: 15px;
-}
-td{
-    color: #cf203a;
+    padding-bottom: 5px;
 }
 .prices-2{
-    background-image: url(./img/images10.jfif);
+    background-image: url(./img/a2.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
 }
-.personal{
-    padding: 100px 0;
+.personal {
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
     text-align: center;
 }
-.personal-txt{
+.personal-txt {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
-.personal-group{
+.personal-group {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
 }
-.personal-1{
+.personal-1 {
     text-align: center;
 }
-.personal-1 img{
-    width: 250px;
+.personal-1 img {
+    width: 200px;
     border-radius: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 .personal-1 h3{
     font-size: 22px;
@@ -244,25 +262,41 @@ td{
     color: #cf203a;
 }
 .footer-bg{
-    background-image: url(./img/images11.jfif);
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/bg-2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 100px 0;   
+    padding: 40px;  
 }
-form{
+.form{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.campo-1´{
-    margin-bottom: 15px;
+.campo-1{
+    margin-bottom: 25px;
+}
+.campo-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.campo-text {
+    padding: 20px 20px;
+    background-color: #0e0e0e;
+    border: 1px solid #cf203a;
+    outline: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
 }
 .campo{
     margin: 5px;
     padding: 20px 15px;
-    width: 250px;
+    width: 300px;
     background-color: #0e0e0e;
     border: 1px solid #cf203a;
     outline: none;
@@ -271,7 +305,7 @@ form{
     font-size: 14px;
 }
 textarea{
-    width: 520px !important;
+    width: 400px !important;
 }
 .footer-txt{
     text-align: center;
@@ -285,7 +319,7 @@ textarea{
     .menu label {
         display: initial;
     }
-    .menu.navbar {
+    .menu .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -311,11 +345,15 @@ textarea{
     .header-txt h1{
         font-size: 90px;
     }
+    .header-txt p {
+        padding: 0;
+        margin: 15px 0;
+    }
     .header-dir{
         flex-direction: column;
     }
     .dir p{
-        font-size: 10px;
+        font-size: 18px;
     }
     .welcome{
         flex-direction: column;
