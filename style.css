@@ -96,7 +96,7 @@ body {
     letter-spacing: 2px;
     font-size: 20px;
     margin: 20px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     border-radius: 15px;
 }
 .btn-1:hover {
@@ -251,16 +251,24 @@ th, td {
 .personal-1 img {
     width: 200px;
     border-radius: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 .personal-1 h3{
     font-size: 22px;
 }
 .personal-1 p{
-    padding: 0 50px;
+    padding: 20px 50px;
 }
 .personal-1 a{
-    color: #cf203a;
+    color: #ffffff;
+    padding: 10px 25px;
+    background-color:#cf203a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    border-radius: 15px;
 }
 .footer-bg{
     width: 100%;
