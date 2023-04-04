@@ -42,6 +42,7 @@ body {
     color: #cf203a;
     font-weight: 800;
     text-transform: uppercase;
+    padding: 20px;
 }
 .menu .navbar ul li {
     position: relative;
@@ -108,12 +109,12 @@ body {
     margin-top: 20px ;
 }
 .dir h3 {
-    font-size: 18px;
+    font-size: 20px;
 }
 .dir p {
     font-size:22px ;
     color: #ffffff;
-    text-transform:uppercase ;
+    text-transform:uppercase;
 }
 .welcome {
     display: flex;
