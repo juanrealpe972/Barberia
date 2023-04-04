@@ -313,7 +313,7 @@ textarea{
     margin: 0 auto;
 }
 .footer {
-    background-color: #242626;
+    background-color: #000000;
     padding: 80px 0;
 }
 .footer-row {
@@ -334,11 +334,11 @@ textarea{
     display: inline-block;
 }
 .footer-links ul li a {
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
     color:#bbbbbb ;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     transition: all .3s ease;
 }
 .footer-linkks ul li a:hover {
